@@ -1,0 +1,23 @@
+.intro {
+  margin: auto;
+  padding: 95px 148px 0;
+  color: #fff;
+}
+
+@media (max-width: 1024px) {
+  .intro {
+    padding: 95px 48px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro {
+    padding: 92px 24px 0;
+  }
+}
+
+@media (max-width: 450px) {
+  .intro {
+    padding: 66px 16px 0;
+  }
+}
