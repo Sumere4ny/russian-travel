@@ -1,0 +1,15 @@
+.place__text {
+  margin-top: 4px;
+}
+
+@media (max-width: 425px) {
+  .place__text {
+    margin: 8px 0 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .place__text {
+    margin: 8px 16px 0;
+  }
+}
