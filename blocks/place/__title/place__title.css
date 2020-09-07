@@ -2,11 +2,18 @@
   font-weight: 900;
   font-size: 72px;
   line-height: 1.06;
-  color: white;
   align-self: end;
   max-width: 460px;
   transform: translateY(12px);
   margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__title {
+    max-width: 330px;
+    font-size: 56px;
+    line-height: 1.1;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -28,7 +35,6 @@
 
 @media screen and (max-width: 320px) {
   .place__title {
-    margin-left: 16px;
-    margin-right: 16px;
+    margin: 0 16px;
   }
 }
