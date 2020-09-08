@@ -1,7 +1,6 @@
 .lead__image-front {
-  left: 2%;
-  top: 15%;
   display: block;
-  position: absolute;
   width: 95.5%;
+  padding-top: 8%;
+  padding-bottom: 27.6%;
 }
